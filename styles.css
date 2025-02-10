@@ -6,11 +6,12 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 button {
     display: flex;
-    margin: 50px;
+    margin-top: 50px;
     background-color: royalblue;
     padding: 18px;
     border: 5px solid black;
@@ -18,7 +19,20 @@ button {
     color: white;
     font-weight: bold;
     font-size: 32px;
+    cursor: pointer;
     
+}
+button:hover{
+    background-color: green;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    margin: 25px;
+    background-color: azure;
+    padding: 8px 50px;
+    border-radius: 5px;
 }
 
 .grid-container {
